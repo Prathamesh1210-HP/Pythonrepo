@@ -21,4 +21,4 @@ print(list(onlyEven))
 def sum(a, b):
     return a + b
 
-print(reduce(sum, l))
+print(reduce(sum,l))
