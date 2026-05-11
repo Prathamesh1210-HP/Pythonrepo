@@ -1,4 +1,4 @@
-a = "{1} is a good {0}".format("Patu", "boy")
+a = "{1} is a good {0}".format("Patu","boy")
 
 print(a)
 
