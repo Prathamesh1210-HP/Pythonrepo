@@ -8,4 +8,4 @@ def greater(a, b):
         return a
     return b
 
-print(reduce(greater, l))
+print(reduce(greater,l))
