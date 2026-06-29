@@ -2,5 +2,5 @@
 m1 = int(input("Enter 1st sub marks: "))
 m2 = int(input("Enter 2nd sub marks: "))
 
-avg = (m1+m2)/2
-print(avg)
+# avg = (m1+m2)/2
+print("Avg is ",(m1+m2)/2)
