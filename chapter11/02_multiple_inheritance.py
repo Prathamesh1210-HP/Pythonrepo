@@ -22,4 +22,4 @@ b.show()
 b.printLanguage()
 b.showLanguage()
 
-print(a.company, b.company)
+print(b.company, b.language)

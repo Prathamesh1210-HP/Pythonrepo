@@ -2,8 +2,11 @@ class Employee:
     language = "Py" # This is a class attribute
     salary = 1400000
 
-    def __init__(self): # dunder methos which's automatically called
-        print("I am creating an object.")
+    def __init__(self, name, salary, language): # dunder method which's automatically called
+        self.name = name
+        self.salary = salary
+        self.language = language
+        print("I'm creating an object.")
 
     def getinfo(self):
         print(f"The lanuage is {self.language}. The salary is {self.salary}")
@@ -12,6 +15,6 @@ class Employee:
     def greet():
         print("Good afternoon!")
 
-Patu = Employee()
-Patu.language = "Java" # This is an instance attribute
+Patu = Employee("Patu", 1300000, "JavaScript")
+ # This is an instance attribute
 Patu.getinfo()

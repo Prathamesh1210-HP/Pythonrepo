@@ -1,11 +1,11 @@
 class Employee:
     def __init__(self):
-        print("Constructor of Employee")
+        print("Constructor of Em")
     a = 1
 
 class Programmer(Employee):
     def __init__(self):
-        print("Constructor of Employee")
+        print("Constructor of Emp")
     b = 2
 
 class Manager(Programmer):

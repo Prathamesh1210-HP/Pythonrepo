@@ -1,10 +1,8 @@
 # In python programming we must be able to execute instructions on a condition(s) being met.
 
 a = int(input("Enter your age: "))
-
-if(a==0) or (a<0):
-    print("Invalid number of age. Please enter right age")
-elif(a>=18):
+# if else ladder
+if(a>=18):
     print("You are above the age of consent.")
 
 else:

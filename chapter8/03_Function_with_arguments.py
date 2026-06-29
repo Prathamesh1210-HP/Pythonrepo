@@ -1,7 +1,10 @@
 def goodday(name, ending):
     print("Good Day, " + name)
     print(ending)
+    return "Done" # It will asiign to a
 
-goodday("Pathu!", "Thank you")
-goodday("Rutu!", "Thanks")
-goodday("Patu!", "Thank you")
+
+a = goodday("Pathu!", "Thank you")
+print(a)
+# goodday("Rutu!", "Thanks")
+# goodday("Patu!", "Thank you")
