@@ -1,6 +1,7 @@
 n1 = int(input("Enter 1st number: "))
+n = input(" + - * / % \n")
 n2 = int(input("Enter 2nd number: "))
-n = input(" + - * / % ")
+
     
     # if n1 and n2 == 0:
     #     return "invalid number";

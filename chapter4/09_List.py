@@ -8,7 +8,8 @@ print(friends[0])
 print(friends[1:4])
 
 # Methods of lists
-print(friends.append("Patu"))
+friends.append("Patu")
+print(friends)
 
 l1 = [1,34,62,2,6,11]
 l1.sort()
