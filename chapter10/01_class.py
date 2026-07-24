@@ -1,15 +1,9 @@
-class Employee:
-    language = "Py" # This is a class attribute
-    salary = 1400000
+class Student:
+    name= "Karan";
+    def __init__(self):
+        print("Adding new student in Database..")
 
-Patu = Employee()
-Patu.name = "Patu" # This is an instance attribute
-print(Patu.name ,Patu.language, Patu.salary)
+s1 = Student()
 
-rohan = Employee()
-rohan.name = "Rohan" # This is an instance attribute
-print(rohan.name, rohan.salary, rohan.language)
-
-'''
-Here name is an attribute and salary  and language are class attributes as they directly belong to the class
-'''
+s2=Student()
+print(s1.name)
