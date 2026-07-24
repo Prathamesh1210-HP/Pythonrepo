@@ -1,16 +1,18 @@
+# Create student class that takes name and marks of 3 subjects as arguments in constructor. Then create a method to print the average.
+
 class Student:
-    college_name = "ABC College";
-    name= "Karan";
-    print("Adding new student in Database..");
+    print("...Student's result...");
 
-    # Parameterized constructors
-    def __init__(self, name,marks):
-        self.name = name;
-        self.marks = marks;
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+        
+    def getavg(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        print("Hi", self.name, "Your avg score is: ", sum/3)
 
-    def welcome(self):
-        print("Welcome student,",self.name)
-
-s1 = Student("Arjun",98)
-s1.welcome()
-print(s1.name,s1.marks)
+s1 = Student("Tony stark", [99,98,97])
+s1.getavg()
+# print(s1.name,m1,m2,m3)
