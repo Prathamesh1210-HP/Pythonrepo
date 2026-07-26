@@ -11,7 +11,7 @@ class Account:
     # credit method
     def credit(self,amount): 
         self.balance += amount
-        print("Rs.",amount,"was credited","Total balance = ", self.get_balance())
+        print("Rs.",amount,"was credited", "Total balance = ", self.get_balance())
 
     def get_balance(self):
         return self.balance
