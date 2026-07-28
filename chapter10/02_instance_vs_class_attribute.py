@@ -4,4 +4,4 @@ class Employee:
 
 Patu = Employee()
 Patu.language = "Java" # This is an instance attribute
-print(Patu.language,Patu.salary)
+print(Patu.language, Patu.salary)
