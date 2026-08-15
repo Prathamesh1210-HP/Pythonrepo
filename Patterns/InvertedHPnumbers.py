@@ -1,5 +1,18 @@
 n = 5
 
-for i in range(n, 1):
-    print(i)
-    i-1
+for i in range(n):
+    for j in range(n,0,-1):
+        print(j, end=" ")
+        j+1
+    print()
+print("\n")
+
+# Practice
+
+n = 4 
+
+for i in range(n):
+    for j in range(n,0,-1):
+        print(j, end=" ")
+        j+1
+    print()
