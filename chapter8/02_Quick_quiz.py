@@ -1,4 +1,8 @@
-def goodday():
-    print("Good Day")
+def Goodday():
+    print("Have a good day!")
 
-goodday()
+    def Sadday():
+        print("Don't worry!, Everything will be alright.")
+    Sadday()
+
+Goodday()
