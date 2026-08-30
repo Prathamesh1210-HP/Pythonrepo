@@ -1,4 +1,4 @@
-f = open("file.txt")
+f = open("file.txt ")
 
 #lines  = f.readlines()
 line1  = f.readline()
