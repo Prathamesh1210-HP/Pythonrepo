@@ -7,3 +7,5 @@ contentNew = content.replace("Donkey", "#####")
 
 with open("donke.txt", "w") as f:
     f.write(contentNew)
+
+print("Done.")
